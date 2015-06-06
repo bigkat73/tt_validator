@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ttval = TigerTextUserValidator::UserValidator.new({user_name: <username>, password: <password>})
+ttval.valid?
+
+returns boolean
 
 ## Contributing
 
