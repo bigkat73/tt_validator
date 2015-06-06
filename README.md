@@ -1,6 +1,6 @@
 # TigerTextUserValidator
 
-Use to validate tiger text users against the api
+Use to validate tiger text users against the api.  Yep, the namespace is a bit much.
 
 ## Installation
 
