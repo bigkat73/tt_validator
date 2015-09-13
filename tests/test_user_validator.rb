@@ -1,5 +1,6 @@
+require "minitest/autorun"
+require_relative "../lib/tiger_text_user_validator.rb"
 require_relative '../lib/tiger_text_user_validator/user_validator.rb'
-require 'minitest/autorun'
 
 describe TigerTextUserValidator::UserValidator do
 

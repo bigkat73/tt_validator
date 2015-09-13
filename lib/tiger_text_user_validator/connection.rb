@@ -5,8 +5,8 @@ module TigerTextUserValidator
     attr_reader :user_name, :pass, :url_string, :ts
 
     def initialize(args)
-      @user_name = args[:user_name] || 'user_name'
-      @pass = args[:password] || 'password'
+      @user_name = URI.encode(args[:user_name]) || 'user_name'
+      @pass = URI.encode(args[:password]) || 'password'
       @ts = (Time.now.to_i * 1000).to_s
     end
 

@@ -1,7 +1,5 @@
 require_relative '../../lib/tiger_text_user_validator/connection'
 require 'net/http'
-require 'pry'
-require 'pry-nav'
 
 module TigerTextUserValidator
 
